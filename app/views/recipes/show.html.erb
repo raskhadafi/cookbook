@@ -7,12 +7,12 @@
 
 <p>
   <b>Ingredients:</b>
-  <%= @recipe.ingredients %>
+  <%= @recipe.ingredients.html_safe %>
 </p>
 
 <p>
   <b>Instructions:</b>
-  <%= @recipe.instructions %>
+  <%= @recipe.instructions.html_safe %>
 </p>
 
 
