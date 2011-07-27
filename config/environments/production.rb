@@ -13,6 +13,8 @@ Cookbook::Application.configure do
 
   # Compress JavaScripts and CSS
   config.assets.compress = true
+  config.assets.js_compressor  = :uglifier
+  config.assets.enabled = true
 
   # Specifies the header that your server uses for sending files
   # (comment out if your front-end server doesn't support this)
