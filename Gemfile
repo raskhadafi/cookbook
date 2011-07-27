@@ -22,9 +22,10 @@ gem 'aloha_rails'
 # Use unicorn as the web server
 # gem 'unicorn'
 
-# Deploy with Capistrano
 group :development do
+  # Deploy with Capistrano
   gem 'capistrano'
+  gem 'capistrano_colors'
 end
 
 # To use debugger
