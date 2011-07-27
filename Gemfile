@@ -23,7 +23,9 @@ gem 'aloha_rails'
 # gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano'
+group :development do
+  gem 'capistrano'
+end
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
