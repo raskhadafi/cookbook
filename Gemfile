@@ -31,6 +31,7 @@ end
 
 group :production do
   gem 'therubyracer'
+  gem 'multi_json'
 end
 
 # To use debugger
