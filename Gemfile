@@ -19,6 +19,7 @@ end
 
 gem 'jquery-rails'
 # gem 'aloha_rails', :git => 'git://github.com/raskhadafi/aloha_rails.git'
+gem 'aloha_rails'
 
 # Use unicorn as the web server
 # gem 'unicorn'

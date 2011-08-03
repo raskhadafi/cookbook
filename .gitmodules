@@ -1,3 +1,1 @@
-[submodule "vendor/plugins/aloha_rails"]
-	path = vendor/plugins/aloha_rails
-	url = git://github.com/raskhadafi/aloha_rails.git
+
