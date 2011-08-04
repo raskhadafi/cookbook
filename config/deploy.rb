@@ -1,4 +1,4 @@
-require 'capistrano_colors'
+require 'capones_recipes'
 
 set :server, :passenger
 

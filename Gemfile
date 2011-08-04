@@ -26,8 +26,7 @@ gem 'aloha_rails', :git => 'git://github.com/raskhadafi/aloha_rails.git'
 
 group :development do
   # Deploy with Capistrano
-  gem 'capistrano'
-  gem 'capistrano_colors'
+  gem 'capones_recipes'
 end
 
 group :production do
